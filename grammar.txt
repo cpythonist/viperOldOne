@@ -1,0 +1,24 @@
+# First line for static or dynamic typing (optional: default dynamic)
+~static
+
+# Assignment
+let <typ> <var> = <val:typ>
+
+# Comparison
+(exp | var) <(==, !=, <, <=, >, >=)> (exp | var)
+
+# Function declaration
+fun <return-typ> <var>([<typ> args]) {
+    <func-body>
+    [return <val:typ>]
+}
+
+# Built-in types
+int: numbers without decimal point
+float: numbers with one decimal point
+str: literals enclosed by ' or "
+bool: true or false
+none: none
+
+# Comments
+# text
